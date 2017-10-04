@@ -23,4 +23,9 @@ public class HarvardLawyer extends Lawyer {
 		}
 		return temp;
 	}	
+	
+	@Override
+	public String toString() {
+		return "Harvard Lawyer";
+	}
 }
